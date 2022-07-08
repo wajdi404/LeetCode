@@ -1,2 +1,10 @@
 # LeetCode
 My LeetCode problems solutions.
+
+|   # | Title | Solutions | Runtime | Memory | Difficulty |
+| --- | ----- | --------- | ------- | ------ | ---------- |
+|  1  | [Two Sum](https://leetcode.com/problems/two-sum/) | Python | 3892 ms | 14.6 MB |   Easy |
+|  2  | Add Two Numbers | NA | NA | NA | Medium |
+|  7  | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Python | 20 ms | 13.3 MB | Medium |
+|  9  | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Python | 44 ms | 13.4 MB | Easy |
+
