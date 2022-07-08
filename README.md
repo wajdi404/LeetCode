@@ -1,5 +1,6 @@
 # LeetCode
-My LeetCode problems solutions.
+
+My LeetCode algorithms solutions.
 
 |   # | Title | Solutions | Runtime | Memory | Difficulty |
 | --- | ----- | --------- | ------- | ------ | ---------- |
