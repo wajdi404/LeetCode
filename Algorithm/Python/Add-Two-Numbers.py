@@ -19,12 +19,6 @@ class LinkedList:
         self.head = None
 
         
-def appendHead( l, data):
-    temp = l.head
-    l.head = Node(data)
-    l.head.next = temp
-
-        
 def addTwoNumbers( l1, l2):
     """
     :type l1: ListNode
@@ -38,15 +32,15 @@ def addTwoNumbers( l1, l2):
     aux = 0
     
     while l1curr or l2curr:
-        l1Val = l1curr.data if l1curr else 0
-        l2Val = l2curr.data if l2curr else 0
-        sum = l1Val + l2Val
+        sum = (l1curr.data if l1curr else 0) + (l2curr.data if l2curr else 0) + aux
         if sum > 9:
-            appendHead( l3, sum - 10)
+            sum -= 10 
             aux = 1
         else:
-            appendHead( l3, sum + aux)
             aux = 0
+        temp = l3.head
+        l3.head = Node(sum)
+        l3.head.next = temp
         l1curr = l1curr.next if l1curr else None
         l2curr = l2curr.next if l2curr else None
 
