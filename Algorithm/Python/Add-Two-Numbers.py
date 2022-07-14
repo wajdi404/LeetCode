@@ -37,26 +37,19 @@ def addTwoNumbers( l1, l2):
     l2curr = l2.head
     aux = 0
     
-    while True:
-        if l1curr and l2curr:
-            sum = l1curr.data + l2curr.data
-            if sum > 9:
-                appendHead( l3, sum - 10)
-                aux = 1
-            else:
-                appendHead( l3, sum + aux)
-                aux = 0
-            l1curr = l1curr.next
-            l2curr = l2curr.next
-        elif l1curr:
-            appendHead( l3, l1curr.data)
-            l1curr = l1curr.next
-        elif l2curr:
-            appendHead(l3, l2curr.data)
-            l2curr = l2curr.next
+    while l1curr or l2curr:
+        l1Val = l1curr.data if l1curr else 0
+        l2Val = l2curr.data if l2curr else 0
+        sum = l1Val + l2Val
+        if sum > 9:
+            appendHead( l3, sum - 10)
+            aux = 1
         else:
-            break
-    
+            appendHead( l3, sum + aux)
+            aux = 0
+        l1curr = l1curr.next if l1curr else None
+        l2curr = l2curr.next if l2curr else None
+
     return l3    
         
 if __name__=='__main__':
