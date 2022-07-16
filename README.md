@@ -1,6 +1,6 @@
 # LeetCode
 
-My LeetCode algorithms solutions.
+My LeetCode algorithm problems solutions.
 
 |   # | Title | Solutions | Runtime | Memory | Difficulty |
 | --- | ----- | --------- | ------- | ------ | ---------- |
@@ -11,5 +11,11 @@ My LeetCode algorithms solutions.
 |  7  | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Python](https://github.com/wajdi404/LeetCode/blob/main/Algorithm/Python/Reverse-Integer.py) | 20 ms | 13.3 MB | Medium |
 |  9  | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Python](https://github.com/wajdi404/LeetCode/blob/main/Algorithm/Python/Palindrome-Number.py) | 44 ms | 13.4 MB | Easy |
 |  20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Python](https://github.com/wajdi404/LeetCode/blob/main/Algorithm/Python/Valid-Parentheses.py) | 23 ms | 13.9 MB | Easy |
+
+My LeetCode database problems solutions.
+
+|   # | Title | Solutions | Runtime | Memory | Difficulty |
+| --- | ----- | --------- | ------- | ------ | ---------- |
+|  175  | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | [SQL](#) | 620 ms | 0 MB |   Easy |
 
 
