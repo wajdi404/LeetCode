@@ -16,6 +16,6 @@ My LeetCode database problems solutions.
 
 |   # | Title | Solutions | Runtime | Memory | Difficulty |
 | --- | ----- | --------- | ------- | ------ | ---------- |
-|  175  | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | [SQL](#) | 620 ms | 0 MB |   Easy |
+|  175  | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | [SQL](https://github.com/wajdi404/LeetCode/blob/main/Database/Combine-Two-Tables.sql) | 620 ms | 0 MB |   Easy |
 
 
